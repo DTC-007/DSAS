@@ -47,6 +47,7 @@ _Bool insertList(ArrayList list, E element, int index){
 //顺序表删除
 //list 就是待操作的表，index 是要删除的元素位序
 _Bool deleteList(ArrayList list, int index){
+    if (list->size == 0) return 0;
     if(index < 1 || index > list->size) return 0;
     for (int i = index - 1; i < list->size - 1; ++i)
         list->array[i] = list->array[i + 1];   //实际上只需要依次把后面的元素覆盖到前一个即可
@@ -56,7 +57,8 @@ _Bool deleteList(ArrayList list, int index){
 
 //按位置获取元素
 E * getList(ArrayList list, int index){
-    if(index < 1 || index > list->size) return NULL;   //如果超出范围就返回 NULL
+    //如果为空表或者超出范围就返回 NULL
+    if(list->size == 0 || index < 1 || index > list->size) return NULL;
     return &list->array[index - 1];
 }
 
@@ -82,7 +84,7 @@ int main() {
             insertList(&list, i, i);
         printf("%d\n", list.capacity);
         //删除元素
-        deleteList(&list, 9);
+        deleteList(&list, 20);
         printList(&list);
         printf("%d\n", * getList(&list, 9));
         printf("%d\n", findList(&list, 10));

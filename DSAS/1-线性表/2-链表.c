@@ -12,7 +12,7 @@ typedef struct ListNode * Node;   //为结点指针起别名，可以直接作�
 
 //初始化链表
 void initList(Node node){
-    node->next = NULL;   //头结点默认下一个为 NULL
+    node->next = NULL;   //初始化为空链表，头结点默认下一个为 NULL
 }
 
 //打印链表数据
@@ -45,8 +45,8 @@ _Bool insertList(Node head, E element, int index){
 //链表删除
 //head 就是头结点，index 依然是待删除的结点位序
 _Bool deleteList(Node head, int index){
-    if(index < 0) return 0;
-    while (index--) {
+    if(index < 1) return 0;
+    while (--index) {
         head = head->next;
         if(head == NULL) return 0;
     }
@@ -98,8 +98,9 @@ int main() {
     }
     //插入
     insertList(&head, 0, 2);
+    printList(&head);
     //删除
-    deleteList(&head, 1);
+    deleteList(&head, 2);
     printList(&head);
     //按位置获取元素
     printf("%d\n", *getList(&head, 2));

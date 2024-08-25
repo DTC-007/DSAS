@@ -1,3 +1,5 @@
 # ninja log v5
 1	136	7380068493609079	build.ninja	5caac6ec493bde2c
 0	133	7380068023511267	CMakeFiles/DSAS.dir/main.c.obj	27c8a4299921aa0
+2	91	7397104979547908	CMakeFiles/DSAS.dir/main.c.obj	27c8a4299921aa0
+92	286	7397104981478336	DSAS.exe	b03dff672eb95abf
