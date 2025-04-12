@@ -15,7 +15,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/addr2line.exe"
+			"value" : "/usr/bin/addr2line.exe"
 		},
 		{
 			"name" : "CMAKE_AR",
@@ -31,7 +31,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/ar.exe"
+			"value" : "/usr/bin/ar.exe"
 		},
 		{
 			"name" : "CMAKE_BUILD_TYPE",
@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "d:/Study/DSA/DSAS/cmake-build-debug"
+			"value" : "/cygdrive/d/Study/DSA/DSAS/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -79,7 +79,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "26"
+			"value" : "29"
 		},
 		{
 			"name" : "CMAKE_CACHE_PATCH_VERSION",
@@ -91,7 +91,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "4"
+			"value" : "6"
 		},
 		{
 			"name" : "CMAKE_COLOR_DIAGNOSTICS",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/cmake/win/x64/bin/cmake.exe"
+			"value" : "/cygdrive/c/Users/22393/AppData/Local/JetBrains/CLion2024.2/cygwin_cmake/bin/cmake.exe"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/cmake/win/x64/bin/cpack.exe"
+			"value" : "/cygdrive/c/Users/22393/AppData/Local/JetBrains/CLion2024.2/cygwin_cmake/bin/cpack.exe"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -139,7 +139,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/cmake/win/x64/bin/ctest.exe"
+			"value" : "/cygdrive/c/Users/22393/AppData/Local/JetBrains/CLion2024.2/cygwin_cmake/bin/ctest.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER",
@@ -155,7 +155,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/gcc.exe"
+			"value" : "/usr/bin/cc"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_AR",
@@ -171,7 +171,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/gcc-ar.exe"
+			"value" : "/usr/bin/gcc-ar.exe"
 		},
 		{
 			"name" : "CMAKE_C_COMPILER_RANLIB",
@@ -187,7 +187,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/gcc-ranlib.exe"
+			"value" : "/usr/bin/gcc-ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_C_FLAGS",
@@ -270,22 +270,6 @@
 			"value" : "-O2 -g -DNDEBUG"
 		},
 		{
-			"name" : "CMAKE_C_STANDARD_LIBRARIES",
-			"properties" : 
-			[
-				{
-					"name" : "ADVANCED",
-					"value" : "1"
-				},
-				{
-					"name" : "HELPSTRING",
-					"value" : "Libraries linked by default with all C applications."
-				}
-			],
-			"type" : "STRING",
-			"value" : "-lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32"
-		},
-		{
 			"name" : "CMAKE_DLLTOOL",
 			"properties" : 
 			[
@@ -299,7 +283,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/dlltool.exe"
+			"value" : "/usr/bin/dlltool.exe"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -327,7 +311,7 @@
 				}
 			],
 			"type" : "STRING",
-			"value" : ""
+			"value" : "-Wl,--enable-auto-import"
 		},
 		{
 			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
@@ -431,7 +415,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Study/DSA/DSAS/cmake-build-debug/CMakeFiles/pkgRedirects"
+			"value" : "/cygdrive/d/Study/DSA/DSAS/cmake-build-debug/CMakeFiles/pkgRedirects"
 		},
 		{
 			"name" : "CMAKE_GENERATOR",
@@ -443,7 +427,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "Ninja"
+			"value" : "Unix Makefiles"
 		},
 		{
 			"name" : "CMAKE_GENERATOR_INSTANCE",
@@ -482,18 +466,6 @@
 			"value" : ""
 		},
 		{
-			"name" : "CMAKE_GNUtoMS",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Convert GNU import libraries to MS format (requires Visual Studio)"
-				}
-			],
-			"type" : "BOOL",
-			"value" : "OFF"
-		},
-		{
 			"name" : "CMAKE_HOME_DIRECTORY",
 			"properties" : 
 			[
@@ -503,7 +475,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/Study/DSA/DSAS"
+			"value" : "/cygdrive/d/Study/DSA/DSAS"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -515,7 +487,7 @@
 				}
 			],
 			"type" : "PATH",
-			"value" : "C:/Program Files (x86)/DSAS"
+			"value" : "/usr/local"
 		},
 		{
 			"name" : "CMAKE_LINKER",
@@ -531,19 +503,23 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/ld.exe"
+			"value" : "/usr/bin/ld.exe"
 		},
 		{
 			"name" : "CMAKE_MAKE_PROGRAM",
 			"properties" : 
 			[
 				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
 					"name" : "HELPSTRING",
-					"value" : "make program"
+					"value" : "Path to a program."
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe"
+			"value" : "/usr/bin/make.exe"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -639,7 +615,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/nm.exe"
+			"value" : "/usr/bin/nm.exe"
 		},
 		{
 			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
@@ -667,7 +643,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/objcopy.exe"
+			"value" : "/usr/bin/objcopy.exe"
 		},
 		{
 			"name" : "CMAKE_OBJDUMP",
@@ -683,7 +659,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/objdump.exe"
+			"value" : "/usr/bin/objdump.exe"
 		},
 		{
 			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
@@ -747,7 +723,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/ranlib.exe"
+			"value" : "/usr/bin/ranlib.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER",
@@ -763,7 +739,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/windres.exe"
+			"value" : "/usr/bin/windres.exe"
 		},
 		{
 			"name" : "CMAKE_RC_COMPILER_WORKS",
@@ -871,7 +847,7 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/readelf.exe"
+			"value" : "/usr/bin/readelf.exe"
 		},
 		{
 			"name" : "CMAKE_ROOT",
@@ -883,7 +859,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/cmake/win/x64/share/cmake-3.26"
+			"value" : "/cygdrive/c/Users/22393/AppData/Local/JetBrains/CLion2024.2/cygwin_cmake/share/cmake-3.29.6"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1091,7 +1067,35 @@
 				}
 			],
 			"type" : "FILEPATH",
-			"value" : "D:/ProgrammingTool/CLion 2023.1.4/bin/mingw/bin/strip.exe"
+			"value" : "/usr/bin/strip.exe"
+		},
+		{
+			"name" : "CMAKE_TAPI",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_TAPI-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname.exe"
 		},
 		{
 			"name" : "CMAKE_VERBOSE_MAKEFILE",
@@ -1119,7 +1123,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Study/DSA/DSAS/cmake-build-debug"
+			"value" : "/cygdrive/d/Study/DSA/DSAS/cmake-build-debug"
 		},
 		{
 			"name" : "DSAS_IS_TOP_LEVEL",
@@ -1143,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "D:/Study/DSA/DSAS"
+			"value" : "/cygdrive/d/Study/DSA/DSAS"
 		},
 		{
 			"name" : "_CMAKE_LINKER_PUSHPOP_STATE_SUPPORTED",

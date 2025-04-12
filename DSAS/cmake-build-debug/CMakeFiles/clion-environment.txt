@@ -1,4 +1,5 @@
-ToolSet: w64 11.0 (local)@D:\ProgrammingTool\CLion 2023.1.4\bin\mingw
+ToolSet: 3.6.0 (local)@D:\ProgrammingTool\C\Cygwin
+Ninja: null@D:\ProgrammingTool\C\CLion 2024.2.4\bin\ninja\cygwin\x64\ninja.exe
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=D:/ProgrammingTool/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe
+Options:

@@ -1,4 +1,10 @@
-"D:\ProgrammingTool\CLion 2023.1.4\bin\cmake\win\x64\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug "-DCMAKE_MAKE_PROGRAM=D:/ProgrammingTool/CLion 2023.1.4/bin/ninja/win/x64/ninja.exe" -G Ninja -S D:\Study\DSA\DSAS -B D:\Study\DSA\DSAS\cmake-build-debug
--- Configuring done (0.0s)
--- Generating done (0.0s)
--- Build files have been written to: D:/Study/DSA/DSAS/cmake-build-debug
+C:\Users\22393\AppData\Local\JetBrains\CLion2024.2\cygwin_cmake\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "Unix Makefiles" -S /cygdrive/d/Study/DSA/DSAS -B /cygdrive/d/Study/DSA/DSAS/cmake-build-debug
+-- The C compiler identification is GNU 12.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done (4.1s)
+-- Generating done (0.1s)
+-- Build files have been written to: /cygdrive/d/Study/DSA/DSAS/cmake-build-debug

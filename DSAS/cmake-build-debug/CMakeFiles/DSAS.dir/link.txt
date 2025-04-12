@@ -1,0 +1,1 @@
+/usr/bin/cc -g -Wl,--enable-auto-import CMakeFiles/DSAS.dir/main.c.o -o DSAS.exe -Wl,--out-implib,libDSAS.dll.a -Wl,--major-image-version,0,--minor-image-version,0
