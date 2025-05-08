@@ -1,5 +1,5 @@
 ToolSet: 3.6.0 (local)@D:\ProgrammingTool\C\Cygwin
-Ninja: null@D:\ProgrammingTool\C\CLion 2024.2.4\bin\ninja\cygwin\x64\ninja.exe
+Ninja: 1.12.0@D:\ProgrammingTool\C\CLion 2024.2.4\bin\ninja\cygwin\x64\ninja.exe
 Options: 
 
 Options:
